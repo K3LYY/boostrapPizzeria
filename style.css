@@ -1,0 +1,14 @@
+body{
+    background-image: url('backgroungPhoto.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+/* #cialo{
+    opacity: 50%;
+} */
+
+footer{
+    width: 100%;
+    
+}
