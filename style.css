@@ -1,14 +1,44 @@
 body{
     background-image: url('backgroungPhoto.jpg');
     background-attachment: fixed;
-    background-size: cover;
-    
+    background-size: cover;   
 }
+
 /* #cialo{
     opacity: 50%;
 } */
-
-footer{
-    width: 100%;
-    
+nav a{
+    padding: 10px;
+    margin: 7px;
+    border:  dashed  2px;
+    border-radius: 10px;
 }
+.nav-link{
+    border:  dotted  2px;
+    border-radius: 10px;
+}
+nav a:hover{
+    color: black;
+    background-color: black;
+    
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1;
+  }
+  footer {
+    width: 100%;
+    background-color: #dc3545;
+    opacity: 0.75;
+    position: fixed;
+    bottom: 0;
+  }
+  
